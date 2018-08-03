@@ -1,0 +1,153 @@
+/***** base style *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #1f202b;
+}
+
+span {
+    color: #1affff;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+/***** Header Section *****/
+
+header {
+    height: 800px;
+    background-image: url(../img/header-background.png);
+    background-size: cover;
+}
+
+header h1{
+    font-size: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding-left: 30px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+header h2 {
+    font-size: 50px;
+    padding: 130px 0 0 275px;
+}
+
+/***** Portfolio Section *****/
+
+#portfolio {
+    height: 1550px;
+}
+
+#portfolio h2{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 25px 0 80px 0;
+}
+
+#portfolio h3 {
+    letter-spacing: 3px;
+}
+
+#jubilee-description {
+   text-align: center;
+   padding: 200px 50px 250px 0;
+}
+
+#holstee-description {
+   text-align: center;
+   padding: 100px 50px 250px 0;
+}
+
+#rogue-description {
+    text-align: center;
+    padding: 200px 50px 250px 0;
+}
+
+/***** About Section *****/
+
+#about {
+    height: 550px;
+    background-image: url(../img/about.png);
+    background-size: cover;
+}
+
+#about h2 {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+ #about p {
+    padding-top: 100px;
+    color: #000000;
+    font-weight: 600;
+ }
+
+ /***** Connect Section *****/
+
+ #contact {
+     height: 350px;
+}
+
+ #contact h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+#hire-me {
+    text-align: center;
+    padding: 50px 0 0 400px;
+}
+#hire-me a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#follow-me{
+    text-align: center;
+    padding: 50px 0 0 175px;
+}
+
+.icons li{
+    padding-right: 40px;
+}
+
+/***** Footer Section *****/
+
+footer {
+    text-align: center;
+    font-size: 15px;
+}
